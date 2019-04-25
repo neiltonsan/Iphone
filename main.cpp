@@ -1,7 +1,15 @@
-#include <stdio.h>
+#include <iostream>
+using std::cout;
+
+#include "Iphone.h"
 
 int main(int argc, char **argv)
 {
-	printf("hello world\n");
+    Iphone myPhone("v123");
+    Iphone phone1("chant");
+    
+    myPhone.info( );
+    
+	cout << "hello world\n";
 	return 0;
 }
